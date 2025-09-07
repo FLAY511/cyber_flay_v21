@@ -1,15 +1,15 @@
 # CYBER FLAY V21
 
-OSINT & Utilities Tools (Termux-ready) + Browser Launcher (with Tor for .onion).  
-White-hat only. For educational & authorized security testing.
+OSINT & Utilities Tools (Termux-ready) + **Browser Launcher** (Tor untuk `.onion`).  
+**White-hat only.** Untuk pembelajaran & pengujian keamanan yang berizin.
 
-## 📦 Features
-- 15x OSINT Tools (WHOIS, GeoIP, Subdomain Finder, Email Breach, Port Scan, ASN Lookup, Username Checker, dll)
-- Deface Simulation (lokal, aman)
-- Utilities: cuaca, kalkulator, password generator, random quote, random joke, translate, figlet hacker name, kalender, stopwatch
-- Browser Launcher: akses web normal + dukungan `.onion` via Tor
+## 📦 Fitur
+- 15 OSINT: WHOIS, GeoIP, Subdomain Finder, Email Breach, Port Scan, ASN Lookup, Username Check, dll.
+- Deface Simulation (lokal, aman).
+- Utilities: cuaca, kalkulator, password generator, quote, joke, translate, figlet, kalender, stopwatch.
+- Browser Launcher: clearnet + `.onion` via Tor (`torsocks` + `w3m`).
 
-## 🚀 Cara Install & Jalankan
+## 🚀 Install & Jalankan (Termux)
 ```bash
 pkg update && pkg upgrade -y
 pkg install -y git curl jq figlet openssl nmap wget grep coreutils bc tor torsocks w3m
@@ -21,5 +21,4 @@ chmod +x cyber_flay_v21.sh
 ```
 
 ## ⚠️ Disclaimer
-Tools ini hanya untuk **pembelajaran & testing legal**.  
-Segala penyalahgunaan di luar tanggung jawab pembuat.
+Gunakan secara **legal & etis**. Pembuat tidak bertanggung jawab atas penyalahgunaan.
